@@ -1,0 +1,74 @@
+body {
+    background: #f7f7f7;
+    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 32px 24px;
+}
+h1 {
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+input[type="file"] {
+    margin-bottom: 18px;
+    width: 100%;
+}
+button {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 24px;
+    width: 100%;
+}
+button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+.result {
+    margin-bottom: 32px;
+}
+.result h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+ul {
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 0 0 18px 0;
+    list-style: none;
+    font-size: 0.98rem;
+}
+li {
+    margin-bottom: 4px;
+    word-break: break-all;
+}
+ul li a {
+    text-decoration: none;
+}
+.footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 24px;
+}
